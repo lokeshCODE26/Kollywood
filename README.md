@@ -49,24 +49,24 @@ Kollywood Movie Guessing Game is a web-based game where players guess the names 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-github-username/kollywood-movie-guessing-game.git
+   git clone https://github.com/lokeshCODE26/kollywood.git
    ```
 
 2. Navigate into the project directory:
 
    ```bash
-   cd kollywood-movie-guessing-game
+   cd kollywood
    ```
 
-3. Open `index.html` in your preferred browser.
+3. Open `Home.html` in your preferred browser.
 
 ## Usage
 
-To play the game, open `index.html` in a browser. For a live version, visit the [GitHub Pages link](https://your-github-username.github.io/kollywood-movie-guessing-game).
+To play the game, open `Home.html` in a browser. For a live version, visit the [GitHub Pages link](https://github.com/lokeshCODE26/kollywood.git)
 
 ### Folder Structure
 
-- `index.html`: Main file for the game interface
+- `Home.html`: Main file for the game interface
 - `style.css`: Styles for the UI
 - `script.js`: Main game logic and data protection
 
