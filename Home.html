@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hero-Heroine Quiz</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="grid-container">
+            <div class="question-box" id="a11">H</div> <!-- Hero first letter -->
+            <div class="question-box" id="a12">He</div> <!-- Heroine first letter -->
+            <div class="question-box" id="a21">M</div> <!-- Movie first letter -->
+            <div class="question-box" id="a22">S</div> <!-- Song first letter -->
+        </div>
+    </div>
+
+    <div class="input-container">
+        <input type="text" id="heroInput" autocomplete="off"  placeholder="Hero">
+        <input type="text" id="heroineInput" autocomplete="off"  placeholder="Heroine">
+        <input type="text" id="movieInput" autocomplete="off"  placeholder="Movie">
+        <input type="text" id="songInput" autocomplete="off"  placeholder="Song">
+    </div>
+
+    <button class="hm" onclick="checkAnswer()">Submit Answer</button>
+    <button class="hm" onclick="loadNextQuestion()">Next Question</button>
+    <button class="hm" onclick="giveHint()">Get Hint</button>
+
+
+    <div id="score">Score: 0</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
